@@ -1,0 +1,37 @@
+*{
+ box-sizing: border-box;
+}
+body{
+ 
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+  .header,.navigation-menu,.footer{
+    background-color: aqua;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+    
+  }
+  .row{
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+  }
+  .column{
+    padding: 10px;
+    height: 300px;
+    margin:10px;
+   
+  }
+ .column.side{
+  flex: 1;
+  background-color:aqua;
+
+ }
+.column.middle{
+  flex: 2;
+  background-color: aqua;
+} 
+
